@@ -1,0 +1,17 @@
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\PashaMarket.Application.deps.json
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\PashaMarket.Application.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\ref\PashaMarket.Application.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\PashaMarket.Application.pdb
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\PashaMarket.Data.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\PashaMarket.Domain.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\PashaMarket.Data.pdb
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\bin\Debug\net5.0\PashaMarket.Domain.pdb
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.csprojAssemblyReference.cache
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.AssemblyInfoInputs.cache
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.AssemblyInfo.cs
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.csproj.CoreCompileInputs.cache
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.csproj.CopyComplete
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\ref\PashaMarket.Application.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Application\obj\Debug\net5.0\PashaMarket.Application.pdb

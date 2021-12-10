@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlSanitizer" Version="6.0.453" />
+    <PackageReference Include="LazZiya.ImageResize" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.12" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PashaMarket.Data\PashaMarket.Data.csproj" />
+  </ItemGroup>
+
+</Project>

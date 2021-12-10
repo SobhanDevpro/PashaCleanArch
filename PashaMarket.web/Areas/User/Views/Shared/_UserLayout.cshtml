@@ -1,0 +1,103 @@
+﻿
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- font---------------------------------------->
+    <link rel="stylesheet" href="/lib/notifications/notifications.css">
+    <link rel="stylesheet" href="/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/vendor/materialdesignicons.css">
+    <!-- plugin-------------------------------------->
+    <link rel="stylesheet" href="/css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="/css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/vendor/nice-select.css">
+    <link rel="stylesheet" href="/css/vendor/jquery.jqZoom.css">
+
+
+    <!-- main-style---------------------------------->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    @RenderSection("styles", false)
+</head>
+<body>
+    @await Component.InvokeAsync("SiteHeader")
+
+    <!-- profile------------------------------->
+    <div class="container-main">
+        <div class="d-block">
+            <section class="profile-home">
+                <div class="col-lg">
+                    <div class="post-item-profile order-1 d-block">
+                        <div class="col-lg-3 col-md-3 col-xs-12 pr">
+                            <div class="sidebar-profile sidebar-navigation">
+                                <section class="profile-box">
+                                    <header class="profile-box-header-inline">
+                                        <div class="profile-avatar user-avatar profile-img">
+                                            <img src="/images/man.png">
+                                        </div>
+                                    </header>
+                                    <footer class="profile-box-content-footer">
+                                        <span class="profile-box-nameuser">@User.Identity.Name</span>
+                                        <span class="profile-box-registery-date">عضویت در سایت 2 پیش</span>
+                                        <span class="profile-box-phone">شماره همراه : *******0991</span>
+                                        <div class="profile-box-tabs">
+                                            <a asp-action="LogOut" asp-controller="Account"
+                                               class="profile-box-tab-sign-out"><i class="mdi mdi-logout-variant"></i>خروج از حساب</a>
+                                        </div>
+                                    </footer>
+                                </section>
+                                <section class="profile-box">
+                                    <ul class="profile-account-navs">
+                                        <li class="profile-account-nav-item navigation-link-dashboard">
+                                            <a asp-area="User" asp-controller="Home" asp-action="Dashboard">
+                                                <i class="mdi mdi-account-outline"></i>
+                                                پروفایل
+                                            </a>
+                                        </li>
+                                        <li class="profile-account-nav-item navigation-link-dashboard">
+                                            <a asp-area="User" asp-controller="Account" asp-action="ChangePassword" class="">
+                                                <i class="mdi mdi-tooltip-text-outline"></i>
+                                                تغییر کلمه عبور
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                        @RenderBody()
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- profile------------------------------->
+
+    @await Component.InvokeAsync("SiteFooter")
+    <!-- scroll_Progress------------------------->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- scroll_Progress------------------------->
+
+    <script src="/lib/notifications/notifications.js"></script>
+    <script src="/js/custom.js"></script>
+    <!-- file js---------------------------------------------------->
+    <script src="/js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="/js/vendor/bootstrap.js"></script>
+    <!-- plugin----------------------------------------------------->
+    <script src="/js/vendor/owl.carousel.min.js"></script>
+    <script src="/js/vendor/jquery.countdown.js"></script>
+    <script src="/js/vendor/jquery.nice-select.min.js"></script>
+    <script src="/js/vendor/jquery.jqZoom.js"></script>
+    <!-- main js---------------------------------------------------->
+
+    <script src="/js/main.js"></script>
+    <partial name="_SiteMessages" />
+    @RenderSection("scripts", false)
+</body>
+
+</html>

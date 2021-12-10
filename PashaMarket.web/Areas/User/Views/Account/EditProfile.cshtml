@@ -1,0 +1,48 @@
+﻿@using PashaMarket.Application.StaticItems
+@model PashaMarket.Domain.ViewModels.Account.EditUserViewModel
+@{
+    ViewData["Title"] = "ویرایش اطلاعات";
+}
+
+@section scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<div class="col-lg-9 col-md-9 col-xs-12 pl">
+    <div class="profile-content">
+        <div class="profile-stats">
+            <div class="profile-address">
+                <div class="middle-container">
+                    <form method="post" asp-area="User" asp-controller="Account" asp-action="EditProfile" class="form-checkout" enctype="multipart/form-data">
+                        <div class="form-checkout-row">
+
+                            <label>نام <abbr class="required" title="ضروری" style="color: red;">*</abbr></label>
+                            <input type="text" asp-for="FirstName" class="input-password-checkout form-control">
+                            <span class="text-danger" asp-validation-for="FirstName"></span>
+
+                            <label>نام خانوادگی <abbr class="required" title="ضروری" style="color: red;">*</abbr></label>
+                            <input type="text" asp-for="LastName" class="input-password-checkout form-control">
+                            <span class="text-danger" asp-validation-for="LastName"></span>
+
+                            <div class="col-md-9">
+                                <input type="file" name="avatarImage" />
+                            </div>
+                            <div class="col-md-3">
+                                <img style="border-radius:50%; width:150px" src="@(!string.IsNullOrEmpty(Model.Avatar) ? PathTools.UserAvatarOrigin + Model.Avatar : PathTools.DefaultAvatar)"
+                                     alt="Alternate Text" />
+                            </div>
+
+                            <div class="AR-CR">
+                                <button type="submit" class="btn-registrar"> ثبت تغییرات </button>
+                                <a asp-area="User" asp-controller="Home" asp-action="Dashboard" class="cancel-edit-address" data-dismiss="modal" aria-label="Close">بازگشت</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

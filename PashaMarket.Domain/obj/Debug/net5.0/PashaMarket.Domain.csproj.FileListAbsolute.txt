@@ -1,0 +1,12 @@
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\bin\Debug\net5.0\PashaMarket.Domain.deps.json
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\bin\Debug\net5.0\PashaMarket.Domain.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\bin\Debug\net5.0\ref\PashaMarket.Domain.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\bin\Debug\net5.0\PashaMarket.Domain.pdb
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\PashaMarket.Domain.csprojAssemblyReference.cache
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\PashaMarket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\PashaMarket.Domain.AssemblyInfoInputs.cache
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\PashaMarket.Domain.AssemblyInfo.cs
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\PashaMarket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\PashaMarket.Domain.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\ref\PashaMarket.Domain.dll
+C:\Users\sobhan\Desktop\Pasha\PashaMarket\PashaMarket.Domain\obj\Debug\net5.0\PashaMarket.Domain.pdb
